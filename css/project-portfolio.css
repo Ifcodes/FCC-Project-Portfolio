@@ -129,3 +129,7 @@ a{
       background-color: lightblue;
     }
 }
+hr{
+    border-color: tomato;
+    border-width: thin;
+}
