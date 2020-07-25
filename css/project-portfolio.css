@@ -29,9 +29,10 @@ nav a{
     
 }
 nav a:not(brand-logo){
-    padding: 0 1rem;
+    /* Styles the menu links. padding gives space between the menu links.  */
+    padding: 0 1rem; 
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1.5rem;
 }
 nav a.brand-logo{
     font-weight: bolder;
@@ -110,7 +111,7 @@ figcaption{
     font-weight: bold;
     border: none;
     border-radius: 30px;
-    color: tomato;
+    color: white;
 }
 a{
     text-decoration: none;
@@ -132,4 +133,37 @@ a{
 hr{
     border-color: tomato;
     border-width: thin;
+}
+#contact-icons{
+    display: flex;
+    padding: 0 1rem;
+}
+.fa{
+    width: 50px;
+    margin-right: 2rem;
+
+}
+.fa:hover{
+    transform: scale(1.2);
+}
+.spacer-2{
+    flex-grow: 0.75;
+}
+
+#cont-hd{
+    display: flex;
+    padding-left: 2rem;
+}
+.spacer-3{
+    /* creates the space between "Contact" and "Watch Videos" */
+    flex-grow: 0.8;
+}
+#hd-code{
+    font-family: monospace;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgb(255, 37, 37);
+}
+#myName{
+    font-size: 3rem;
 }
